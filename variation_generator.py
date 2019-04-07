@@ -2,8 +2,9 @@
 import abc
 import lxml.etree as ET
 import lxml.builder
-from config_matrix_generator import data
+import data_model_generator
 from os.path import dirname
+from config import squibs
 
 ROOT = "DBXML"
 TABLE_ELEMENT = "TABLE"
@@ -15,8 +16,15 @@ class AbstractVariation(metaclass=abc.ABCMeta):
     """Defines the skeleton of the variation file"""
     def __init__(self,
                  path=dirname(__file__),
-                 name='variation',
+                 name='/variation',
                  extension='.xml'):
+        """ Init instance variables
+        Attributes:
+           path (string): Directory name where the script is running
+           name (string): Name of the output file
+           extension (string): The extension of the output file
+        """
+
         self.path = path
         self.name = name
         self.extension = extension
@@ -27,10 +35,6 @@ class AbstractVariation(metaclass=abc.ABCMeta):
 
     def build_structure(self, test_inputs):
         """Build up the xml file"""
-        pass
-
-    def write(self):
-        """Save the file in xml format or else"""
         pass
 
 
@@ -52,12 +56,13 @@ class ConcreteVariation(AbstractVariation):
                 for key, values in sub_element.items():
                     test_steps = ET.SubElement(test_cases, key)
                     test_steps.text = values
-        self.tree = ET.ElementTree(table)
-        self.tree.write(self.name, pretty_print=True)
+        self.tree = ET.ElementTree(self.root)
+        self.tree.write(self.file_path, pretty_print=True)
 
 
 if __name__ == "__main__":
-    test_inputs = data
+    test_inputs = data_model_generator.JsonGenerator(
+        data_model_generator.ConfigMatrixScenarios).define_test_name(squibs)
     decorated = ConcreteVariation()
     decorated.build_structure(test_inputs)
 
