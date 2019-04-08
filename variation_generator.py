@@ -62,7 +62,7 @@ class ConcreteVariation(AbstractVariation):
 
 if __name__ == "__main__":
     test_inputs = data_model_generator.JsonGenerator(
-        data_model_generator.ConfigMatrixScenarios).define_test_name(squibs)
+        data_model_generator.FaultHandlingScenarios).define_test_name(squibs)
     decorated = ConcreteVariation()
     decorated.build_structure(test_inputs)
 

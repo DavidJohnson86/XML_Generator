@@ -3,19 +3,19 @@ from enum import Enum
 import json
 
 
-class ConfigMatrixScenarios(Enum):
-    """Enum style class what serves for test case definition"""
-    UNCONFIGURED_NC = "Unconfigured and NOT connected"
-    UNCONFIGURED_CO = "Unconfigured and connected"
-    UNCONFIGURED_LEAK_GND = "Unconfigured and leakage to GND"
-    UNCONFIGURED_LEAK_BAT = "Unconfigured and leakage to BAT"
-    INVALID_CONFIG = "Invalid configuration"
-
-
 class Mandatory(Enum):
     """Contains XML tags what is mandatory for all test cases"""
     VOLTAGE = {config.VOLTAGE_TAG: config.NOMINAL_VOLTAGE}
     WAIT_AFTER_FAULT_FREE = {config.WAIT_AFTER_FAULT_FREE_TAG: config.WAIT_AFTER_FAULT_FREE}
+    DIAG_SERVICE = {config.DIAG_SERVICE_TAG : config.DIAG_SERVICE}
+
+
+class FaultHandlingScenarios(Enum):
+    """Enum style class what serves for test case definition"""
+    Open = {config.SWITCHING: "Open"}
+    Short = {config.SWITCHING: "Short"}
+    Leakage_to_GND = {config.SWITCHING: "Leak_GND"}
+    Leakage_to_BAT = {config.SWITCHING: "Leak_BAT"}
 
 
 class JsonGenerator:
@@ -56,20 +56,21 @@ class JsonGenerator:
            }
 
          Example:
-            >>> GEN_JSON = JsonGenerator(ConfigMatrixScenarios)
+            >>> GEN_JSON = JsonGenerator(FaultHandlingScenarios)
             >>> GEN_JSON.define_test_name(config.squibs)
         """
         for test in component:
             for scenario in self.test_cases:
-                test_case_name = test + scenario.value
+                test_case_name = test + scenario.name
                 self.data[test_case_name] = []
+                self.data[test_case_name].append(scenario.value)
                 for param in Mandatory:
                     self.data[test_case_name].append(param.value)
         return self.data
 
 
 if __name__ == "__main__":
-    data = JsonGenerator(ConfigMatrixScenarios).define_test_name(config.squibs)
+    data = JsonGenerator(FaultHandlingScenarios).define_test_name(config.squibs)
     print(json.dumps(data, indent=4))
 
 
