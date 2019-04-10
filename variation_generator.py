@@ -1,8 +1,7 @@
 """This module is responsible for generating varition files for Compa 3 airbag tests"""
 import abc
 import lxml.etree as ET
-import lxml.builder
-from data_model_generator import TestGenerator, SquibFaultHandling, parse_testcases, TEST_DATA_PATH
+from common.data_model_generator import TestGenerator, SquibFaultHandling, parse_testcases, TEST_DATA_PATH
 from os.path import dirname
 
 
@@ -31,7 +30,6 @@ class AbstractVariation(metaclass=abc.ABCMeta):
         self.file_path = self.path + "//" + self.name + self.extension
         self.root = ET.Element(ROOT)
         self.tree = None
-        self.element_maker = lxml.builder.ElementMaker()
 
     def build_structure(self, test_inputs):
         """Build up the xml file"""
@@ -63,7 +61,7 @@ class ConcreteVariation(AbstractVariation):
                         test_steps = ET.SubElement(test_cases, tag)
                     test_steps.text = values
         self.tree = ET.ElementTree(self.root)
-        self.tree.write(self.file_path, pretty_print=True)
+        self.tree.write(self.file_path, pretty_print=True, xml_declaration=True, encoding='iso-8859-1')
 
 
 if __name__ == "__main__":
@@ -71,8 +69,3 @@ if __name__ == "__main__":
     test_data = TestGenerator(test_inputs, SquibFaultHandling).add_tags()
     decorated = ConcreteVariation(name="SquibFaultHandlingVar")
     decorated.build_structure(test_data)
-
-
-
-
-

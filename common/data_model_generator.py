@@ -1,12 +1,17 @@
-import config
-from enum import Enum
-import json
+"""Module responsibility to create JSON based datamodel which will be used
+as an input format to create specific XML files."""
+
+# pylint: disable=F0401
+# disable unable to import error
+
 import os
+import json
+from enum import Enum
+from common import config
 from openpyxl import load_workbook
 from openpyxl.worksheet import Worksheet
 
-TEST_DATA_PATH = r'\test_data.xlsx'
-
+TEST_DATA_PATH = r'\projects\AMVH422ev.xlsx'
 
 
 class Mandatory(Enum):
@@ -18,7 +23,7 @@ class Mandatory(Enum):
 
 
 class SquibFaultHandling(Enum):
-    """Contains XML tags what is mandatory for all test cases"""
+    """Contains fault types all test case types"""
     OPEN = "OPEN"
     SHORT = "SHORT"
     LEAK_BAT = "LEAK_BAT"
@@ -30,27 +35,30 @@ class TestGenerator:
     It creates testcases in JSON format that data could be passed to the
     variation generator what creates XML files for test input data"""
 
-    def __init__(self, test_cases, component):
+    # pylint: disable=R0903
+    # disable too few public methods
+
+    def __init__(self, component_data, error_set):
         """
         Initialize variables
 
         Args:
-            test_cases (enum object): Enum Class for test case definition
+            component_data (list of dicts): Component information
+            error_set(enum): Enum class variables of fault types
         """
-        self.test_cases = test_cases
-        self.component = component
-        self.scenario = None
+        self.component_data = component_data
+        self.error_set = error_set
         self.data = {}
 
     def add_tags(self):
         """
-        Creates test cases for each component for each scenario defined in test_cases
+        Creates test cases for each error_set for each component defined in component_data
         and also adds mandatory elements.
 
         """
-        for self.scenario in self.test_cases:
-            for test in self.component:
-                test_case_name = "{0}_{1}".format(self.scenario["Name"], test.value)
+        for component in self.component_data:
+            for test in self.error_set:
+                test_case_name = "{0}_{1}".format(component["Name"], test.value)
                 self.data[test_case_name] = []
 
                 # Add Mandatory Tags
@@ -59,10 +67,10 @@ class TestGenerator:
 
                 # Add Switch States
                 self.data[test_case_name].append(
-                    {config.SWITCHING: "{0}:{1}".format(self.scenario["Switch"], test.value)})
+                    {config.SWITCHING: "{0}:{1}".format(component["Switch"], test.value)})
 
                 # Add DID Tags
-                self.data[test_case_name].append({config.READ_DID_TAG: self.scenario["DID"]})
+                self.data[test_case_name].append({config.READ_DID_TAG: component["DID"]})
         return self.data
 
 
@@ -74,11 +82,11 @@ def parse_testcases(path, sheet_name):
         sheet_name (str): sheet name
 
     Examples:
-        # >>> parse_testcases("sat1")
+        # >>> parse_testcases("sheet")
     """
 
-    # get absolute path of the real-time sequence
-    working_dir = os.path.dirname(os.path.realpath(__file__))
+    # get absolute path of the the file
+    working_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     path = working_dir + path
 
     # open excel sheet
@@ -105,8 +113,6 @@ def parse_testcases(path, sheet_name):
 
 
 if __name__ == "__main__":
-    test_inputs = parse_testcases(TEST_DATA_PATH, "squibs")
-    data = TestGenerator(test_inputs, SquibFaultHandling).add_tags()
-    print(json.dumps(data, indent=4))
-
-
+    COMPONENT_DATA = parse_testcases(TEST_DATA_PATH, "squibs")
+    DATA = TestGenerator(COMPONENT_DATA, SquibFaultHandling).add_tags()
+    print(json.dumps(DATA, indent=4))
