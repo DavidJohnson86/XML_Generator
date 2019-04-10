@@ -2,9 +2,9 @@
 import abc
 import lxml.etree as ET
 import lxml.builder
-import data_model_generator
+from data_model_generator import TestGenerator, SquibFaultHandling, parse_testcases, TEST_DATA_PATH
 from os.path import dirname
-from config import squibs
+
 
 ROOT = "DBXML"
 TABLE_ELEMENT = "TABLE"
@@ -16,7 +16,7 @@ class AbstractVariation(metaclass=abc.ABCMeta):
     """Defines the skeleton of the variation file"""
     def __init__(self,
                  path=dirname(__file__),
-                 name='/variation',
+                 name='variation',
                  extension='.xml'):
         """ Init instance variables
         Attributes:
@@ -28,7 +28,7 @@ class AbstractVariation(metaclass=abc.ABCMeta):
         self.path = path
         self.name = name
         self.extension = extension
-        self.file_path = self.path + self.name + self.extension
+        self.file_path = self.path + "//" + self.name + self.extension
         self.root = ET.Element(ROOT)
         self.tree = None
         self.element_maker = lxml.builder.ElementMaker()
@@ -53,18 +53,24 @@ class ConcreteVariation(AbstractVariation):
         for key, values in test_inputs.items():
             test_cases = ET.SubElement(table, TEST_CASE_ELEMENT, name=key)
             for sub_element in values:
-                for key, values in sub_element.items():
-                    test_steps = ET.SubElement(test_cases, key)
+                for tag, values in sub_element.items():
+                    if "=" in tag:
+                        tag_name = tag.split(" ")[0]
+                        attrib = tag.split(" ")[-1].split("=")[0]
+                        value = tag.split("=")[1]
+                        test_steps = ET.SubElement(test_cases, tag_name, attrib={attrib: value})
+                    else:
+                        test_steps = ET.SubElement(test_cases, tag)
                     test_steps.text = values
         self.tree = ET.ElementTree(self.root)
         self.tree.write(self.file_path, pretty_print=True)
 
 
 if __name__ == "__main__":
-    test_inputs = data_model_generator.JsonGenerator(
-        data_model_generator.FaultHandlingScenarios).define_test_name(squibs)
-    decorated = ConcreteVariation()
-    decorated.build_structure(test_inputs)
+    test_inputs = parse_testcases(TEST_DATA_PATH, "squibs")
+    test_data = TestGenerator(test_inputs, SquibFaultHandling).add_tags()
+    decorated = ConcreteVariation(name="SquibFaultHandlingVar")
+    decorated.build_structure(test_data)
 
 
 

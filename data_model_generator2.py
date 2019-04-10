@@ -3,6 +3,7 @@ from enum import Enum
 import json
 import abc
 
+
 class Mandatory(Enum):
     """Contains XML tags what is mandatory for all test cases"""
     VOLTAGE = {config.VOLTAGE_TAG: config.NOMINAL_VOLTAGE}
@@ -70,9 +71,6 @@ class TestGenerator(AbstractTestGenerator):
             for scenario in self.test_cases:
                 test_case_name = test + scenario.name
                 self.data[test_case_name] = []
-                # self.data[test_case_name].append(scenario.value)
-                # for param in Mandatory:
-                #     self.data[test_case_name].append(param.value)
         return self.data
 
 
@@ -100,8 +98,7 @@ class MandatoryGenerator(TestGeneratorDecorator):
 
 
 if __name__ == "__main__":
-    #print(json.dumps(data, indent=4))
-    data = MandatoryGenerator(TestGenerator(FaultHandlingScenarios, config.squibs)).add_tags()
-    print(data)
-
+    test_case = TestGenerator(FaultHandlingScenarios, config.squibs)
+    data = MandatoryGenerator(test_case).add_tags()
+    print(json.dumps(data, indent=4))
 

@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DBXML>
+	<TABLE name="Variations">
+		<RECORD name="FABD1_SQ1 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABD1_SQ1:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2300,2364</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSD_SQ2 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ2:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2315,2379</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="FABP1_SQ3 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABP1_SQ3:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2302,2366</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABD_SQ5 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABD_SQ5:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2304,2368</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABP_SQ6 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABP_SQ6:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2305,2369</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTD_SQ7 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTD_SQ7:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2313,2377</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTP_SQ8 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTP_SQ8:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2314,2378</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABD_RB_SQ9 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABD_RB_SQ9:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2308,236C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABP_RB_SQ10 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABP_RB_SQ10:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2309,236D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="KNBD_ES_SQ11 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBD_ES_SQ11:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230C,2370</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<!-- RECORD name="KNBP_ES_SQ12 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBP_ES_SQ12:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230D,2371</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD-->
+		<RECORD name="SABDr_SQ13 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ13:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2306,236A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABPr_SQ14 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ14:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2307,236B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTDR_SQ15 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTDR_SQ15:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231C,2380</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTPR_SQ16 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTPR_SQ16:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231D,2381</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSP_SQ17 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ17:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2316,237A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>PYROBATT_SQ18:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2323,2387</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Open - HV_Batt_Configured">
+			<ReportName>_SQ_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C200000AC5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>PYROBATT_SQ18:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2322,2386</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_AH_SQ19 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_AH_SQ19:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2329,238D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_AH_SQ20 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_AH_SQ20:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>232A,238E</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_SQ21 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_SQ21:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2317,237B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_SQ22 = Open">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_SQ22:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2318,237C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="FABD1_SQ1 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABD1_SQ1:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2300,2364</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSD_SQ2 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ2:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2315,2379</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="FABP1_SQ3 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABP1_SQ3:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2302,2366</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABD_SQ5 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABD_SQ5:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2304,2368</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABP_SQ6 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABP_SQ6:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2305,2369</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTD_SQ7 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTD_SQ7:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2313,2377</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTP_SQ8 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTP_SQ8:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2314,2378</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABD_RB_SQ9 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABD_RB_SQ9:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2308,236C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABP_RB_SQ10 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABP_RB_SQ10:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2309,236D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="KNBD_ES_SQ11 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBD_ES_SQ11:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230C,2370</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<!-- RECORD name="KNBP_ES_SQ12 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBP_ES_SQ12:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230D,2371</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD-->
+		<RECORD name="SABDr_SQ13 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ13:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2306,236A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABPr_SQ14 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ14:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2307,236B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTDR_SQ15 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTDR_SQ15:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231C,2380</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTPR_SQ16 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTPR_SQ16:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231D,2381</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSP_SQ17 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ17:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2316,237A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>PYROBATT_SQ18:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2323,2387</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = High - HV_Batt_Configured">
+			<ReportName>_SQ_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C200000AC5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>PYROBATT_SQ18:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2322,2386</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_AH_SQ19 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_AH_SQ19:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2329,238D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_AH_SQ20 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_AH_SQ20:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>232A,238E</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_SQ21 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_SQ21:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2317,237B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_SQ22 = High">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_SQ22:High</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2318,237C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="FABD1_SQ1 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABD1_SQ1:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2300,2364</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSD_SQ2 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ2:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2315,2379</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="FABP1_SQ3 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABP1_SQ3:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2302,2366</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABD_SQ5 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABD_SQ5:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2304,2368</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABP_SQ6 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABP_SQ6:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2305,2369</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTD_SQ7 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTD_SQ7:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2313,2377</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTP_SQ8 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTP_SQ8:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2314,2378</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABD_RB_SQ9 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABD_RB_SQ9:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2308,236C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABP_RB_SQ10 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABP_RB_SQ10:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2309,236D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="KNBD_ES_SQ11 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBD_ES_SQ11:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230C,2370</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<!--RECORD name="KNBP_ES_SQ12 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBP_ES_SQ12:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230D,2371</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD-->
+		<RECORD name="SABDr_SQ13 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ13:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2306,236A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABPr_SQ14 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ14:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2307,236B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTDR_SQ15 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTDR_SQ15:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231C,2380</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTPR_SQ16 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTPR_SQ16:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231D,2381</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSP_SQ17 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ17:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2316,237A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>PYROBATT_SQ18:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2323,2387</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Short - HV_Batt_Configured">
+			<ReportName>_SQ_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C200000AC5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>PYROBATT_SQ18:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2322,2386</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_AH_SQ19 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_AH_SQ19:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2329,238D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_AH_SQ20 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_AH_SQ20:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>232A,238E</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_SQ21 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_SQ21:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2317,237B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_SQ22 = Short">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_SQ22:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2318,237C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="FABD1_SQ1 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABD1_SQ1:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2300,2364</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSD_SQ2 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ2:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2315,2379</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="FABP1_SQ3 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABP1_SQ3:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2302,2366</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABD_SQ5 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABD_SQ5:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2304,2368</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABP_SQ6 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABP_SQ6:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2305,2369</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTD_SQ7 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTD_SQ7:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2313,2377</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTP_SQ8 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTP_SQ8:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2314,2378</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABD_RB_SQ9 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABD_RB_SQ9:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2308,236C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABP_RB_SQ10 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABP_RB_SQ10:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2309,236D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="KNBD_ES_SQ11 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBD_ES_SQ11:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230C,2370</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<!-- RECORD name="KNBP_ES_SQ12 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBP_ES_SQ12:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230D,2371</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD-->
+		<RECORD name="SABDr_SQ13 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ13:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2306,236A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABPr_SQ14 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ14:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2307,236B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTDR_SQ15 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTDR_SQ15:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231C,2380</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTPR_SQ16 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTPR_SQ16:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231D,2381</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSP_SQ17 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ17:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2316,237A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>PYROBATT_SQ18:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2323,2387</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Leak_UBatt_Fault - HV_Batt_Configured">
+			<ReportName>_SQ_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C200000AC5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>PYROBATT_SQ18:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2322,2386</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_AH_SQ19 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_AH_SQ19:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2329,238D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_AH_SQ20 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_AH_SQ20:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>232A,238E</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_SQ21 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_SQ21:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2317,237B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_SQ22 = Leak_UBatt_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_SQ22:Leak_UBatt_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2318,237C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="FABD1_SQ1 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABD1_SQ1:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2300,2364</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSD_SQ2 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ2:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2315,2379</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="FABP1_SQ3 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>FABP1_SQ3:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2302,2366</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABD_SQ5 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABD_SQ5:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2304,2368</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABP_SQ6 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SABP_SQ6:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2305,2369</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTD_SQ7 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTD_SQ7:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2313,2377</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTP_SQ8 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTP_SQ8:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2314,2378</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABD_RB_SQ9 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABD_RB_SQ9:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2308,236C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="HABP_RB_SQ10 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>HABP_RB_SQ10:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2309,236D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="KNBD_ES_SQ11 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBD_ES_SQ11:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230C,2370</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<!-- RECORD name="KNBP_ES_SQ12 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>KNBP_ES_SQ12:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>230D,2371</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD-->
+		<RECORD name="SABDr_SQ13 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ13:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2306,236A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="SABPr_SQ14 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ14:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2307,236B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTDR_SQ15 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTDR_SQ15:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231C,2380</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BPTPR_SQ16 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BPTPR_SQ16:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>231D,2381</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="EBSP_SQ17 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>SQ17:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2316,237A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>PYROBATT_SQ18:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2323,2387</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="PYROBATT_SQ18 = Leak_GND_Fault - HV_Batt_Configured">
+			<ReportName>_SQ_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C200000AC5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>PYROBATT_SQ18:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2322,2386</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_AH_SQ19 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_AH_SQ19:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2329,238D</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_AH_SQ20 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_AH_SQ20:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>232A,238E</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLD_SQ21 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLD_SQ21:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2317,237B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BFLP_SQ22 = Leak_GND_Fault">
+			<ReportName>_SQ_Faults</ReportName>
+			<PhysicalFaultState>BFLP_SQ22:Leak_GND_Fault</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2318,237C</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		</TABLE>
+</DBXML>

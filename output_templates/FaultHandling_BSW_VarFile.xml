@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DBXML>
+	<TABLE name="Variations">
+		<RECORD name="BSw_Configured__BSWD_BS1__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP_BS3__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD2_BS5__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP2_BS6__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWC2_BS7__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD3_BS2__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP3_BS4__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="BSw_Configured__BSWD_BS1__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP_BS3__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD2_BS5__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP2_BS6__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWC2_BS7__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD3_BS2__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP3_BS4__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="BSw_Configured__BSWD_BS1__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP_BS3__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD2_BS5__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP2_BS6__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWC2_BS7__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD3_BS2__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP3_BS4__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="BSw_Configured__BSWD_BS1__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP_BS3__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD2_BS5__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP2_BS6__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWC2_BS7__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWD3_BS2__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="BSw_Configured__BSWP3_BS4__Invalid">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C800000ACA8A0DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Invalid</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		
+		
+		
+		<RECORD name="MSw_Configured__BSWD_BS1__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP_BS3__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD2_BS5__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP2_BS6__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWC2_BS7__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD3_BS2__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP3_BS4__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_Configured__BSWD_BS1__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP_BS3__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD2_BS5__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP2_BS6__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWC2_BS7__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD3_BS2__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP3_BS4__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_Configured__BSWD_BS1__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD_BS1:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP_BS3__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP_BS3:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD2_BS5__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD2_BS5:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP2_BS6__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP2_BS6:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWC2_BS7__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWC2_BS7:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWD3_BS2__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWD3_BS2:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_Configured__BSWP3_BS4__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<DefaultCoding>060098FCFCC00C8000005C5450DCC04000000065</DefaultCoding>
+			<PhysicalFaultState>BSWP3_BS4:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+	
+	
+	
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD_BS1__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP_BS3__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD2_BS5__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP2_BS6__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWC2_BS7__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD3_BS2__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP3_BS4__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD_BS1__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP_BS3__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD2_BS5__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP2_BS6__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWC2_BS7__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD3_BS2__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP3_BS4__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD_BS1__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP_BS3__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD2_BS5__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP2_BS6__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWC2_BS7__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWD3_BS2__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_100_400_Ohm_Configured__BSWP3_BS4__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		
+		
+		
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD_BS1__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP_BS3__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD2_BS5__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP2_BS6__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWC2_BS7__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD3_BS2__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP3_BS4__Open">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Open</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD_BS1__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP_BS3__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD2_BS5__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP2_BS6__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWC2_BS7__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD3_BS2__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP3_BS4__Short">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Short</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD_BS1__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD_BS1:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2331, 2395</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP_BS3__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP_BS3:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2332, 2396</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD2_BS5__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD2_BS5:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2333, 2397</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP2_BS6__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP2_BS6:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2334, 2398</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWC2_BS7__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWC2_BS7:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2335, 2399</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWD3_BS2__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWD3_BS2:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2336, 239A</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		<RECORD name="MSw_with_SBR_0_470_Ohm_Configured__BSWP3_BS4__Leak_UBatt">
+			<ReportName>_BSW_Faults</ReportName>
+			<PMode.FaultHandling.TxtFilePath>\..\config\%s\pal\FaultHandling.pal,
+												\..\config\%s\pal\par\89_AddEOLConfiguration_Precrash_SBR_0_470.par</PMode.FaultHandling.TxtFilePath>
+			<DefaultCoding>060098FCFCC00C800000545450DCC04000545065</DefaultCoding>
+			<FreeFaultState>PPD_SBR_BS8:Open</FreeFaultState>
+			<PhysicalFaultState>BSWP3_BS4:Leak_UBatt</PhysicalFaultState>
+			<CANSIG_Monitor>AB_Lampe,AB_Systemfehler,AB_KD_Fehler</CANSIG_Monitor>
+			<UDS.ReadDataByID.List>2337, 239B</UDS.ReadDataByID.List>
+			<CrashList>Crash_All, Crash_Rear_2</CrashList>
+			<ESP_v_ref.val type="HEX">0xF0</ESP_v_ref.val>
+		</RECORD>
+		
+		</TABLE>
+</DBXML>
